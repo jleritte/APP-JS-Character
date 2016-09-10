@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-copy',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/mistahj/Desktop/Repos/APP-JS-Character/package.json
+5 warn package.json Dnd_Character_Creator@0.1.0 No repository field.
+6 warn package.json Dnd_Character_Creator@0.1.0 No README data
+7 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt/package.json
+8 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-browserify/package.json
+9 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-cli/package.json
+10 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-clean/package.json
+11 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-concat/package.json
+12 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-connect/package.json
+13 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-copy/package.json
+14 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-csslint/package.json
+15 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-cssmin/package.json
+16 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-imagemin/package.json
+17 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-jshint/package.json
+18 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-uglify/package.json
+19 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-watch/package.json
+20 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy/package.json
+21 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-text-replace/package.json
+22 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-version-assets/package.json
+23 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/qunit/package.json
+24 verbose installManyTop reading scoped package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/x-tag/package.json
+25 info package.json grunt-browserify@5.0.0 No license field.
+26 info package.json grunt-copy@0.1.0 No license field.
+27 info package.json grunt-text-replace@0.4.0 No license field.
+28 info package.json qunit@0.9.1 No license field.
+29 verbose readDependencies loading dependencies from /home/mistahj/Desktop/Repos/APP-JS-Character/package.json
+30 verbose install grunt-copy is installed as 0.1.0
+31 silly cache add args [ 'grunt-copy', null ]
+32 verbose cache add spec grunt-copy
+33 silly cache add parsed spec Result {
+33 silly cache add   raw: 'grunt-copy',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'grunt-copy',
+33 silly cache add   rawSpec: '',
+33 silly cache add   spec: 'latest',
+33 silly cache add   type: 'tag' }
+34 silly addNamed grunt-copy@latest
+35 verbose addNamed "latest" is being treated as a dist-tag for grunt-copy
+36 info addNameTag [ 'grunt-copy', 'latest' ]
+37 silly mapToRegistry name grunt-copy
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'grunt-copy',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   name: 'grunt-copy',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/grunt-copy
+42 verbose addNameTag registry:https://registry.npmjs.org/grunt-copy not in flight; fetching
+43 verbose request uri https://registry.npmjs.org/grunt-copy
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 1:09:16 PM
+46 verbose request id ca0c25aed677de77
+47 verbose etag "6KDRPAHM4Z67IVTQQIFA7ZF40"
+48 http request GET https://registry.npmjs.org/grunt-copy
+49 http 304 https://registry.npmjs.org/grunt-copy
+50 verbose headers { date: 'Sat, 10 Sep 2016 20:09:17 GMT',
+50 verbose headers   via: '1.1 varnish',
+50 verbose headers   'cache-control': 'max-age=300',
+50 verbose headers   etag: '"6KDRPAHM4Z67IVTQQIFA7ZF40"',
+50 verbose headers   age: '248',
+50 verbose headers   connection: 'keep-alive',
+50 verbose headers   'x-served-by': 'cache-lax8636-LAX',
+50 verbose headers   'x-cache': 'HIT',
+50 verbose headers   'x-cache-hits': '1',
+50 verbose headers   'x-timer': 'S1473538157.002575,VS0,VE0',
+50 verbose headers   vary: 'Accept-Encoding' }
+51 silly get cb [ 304,
+51 silly get   { date: 'Sat, 10 Sep 2016 20:09:17 GMT',
+51 silly get     via: '1.1 varnish',
+51 silly get     'cache-control': 'max-age=300',
+51 silly get     etag: '"6KDRPAHM4Z67IVTQQIFA7ZF40"',
+51 silly get     age: '248',
+51 silly get     connection: 'keep-alive',
+51 silly get     'x-served-by': 'cache-lax8636-LAX',
+51 silly get     'x-cache': 'HIT',
+51 silly get     'x-cache-hits': '1',
+51 silly get     'x-timer': 'S1473538157.002575,VS0,VE0',
+51 silly get     vary: 'Accept-Encoding' } ]
+52 verbose etag https://registry.npmjs.org/grunt-copy from cache
+53 verbose get saving grunt-copy to /home/mistahj/.npm/registry.npmjs.org/grunt-copy/.cache.json
+54 verbose correctMkdir /home/mistahj/.npm correctMkdir not in flight; initializing
+55 silly addNameTag next cb for grunt-copy with tag latest
+56 silly addNamed grunt-copy@0.1.0
+57 verbose addNamed "0.1.0" is a plain semver version for grunt-copy
+58 silly cache afterAdd grunt-copy@0.1.0
+59 verbose afterAdd /home/mistahj/.npm/grunt-copy/0.1.0/package/package.json not in flight; writing
+60 verbose correctMkdir /home/mistahj/.npm correctMkdir not in flight; initializing
+61 verbose afterAdd /home/mistahj/.npm/grunt-copy/0.1.0/package/package.json written
+62 silly install resolved [ { name: 'grunt-copy',
+62 silly install resolved     description: 'The best Grunt plugin ever.',
+62 silly install resolved     version: '0.1.0',
+62 silly install resolved     homepage: 'https://github.com/xudafeng/grunt-copy',
+62 silly install resolved     author:
+62 silly install resolved      { name: 'xudafeng',
+62 silly install resolved        email: 'xudafeng@126.com',
+62 silly install resolved        url: 'http://xdf.me/' },
+62 silly install resolved     repository:
+62 silly install resolved      { type: 'git',
+62 silly install resolved        url: 'git+https://github.com/xudafeng/grunt-copy.git' },
+62 silly install resolved     bugs: { url: 'https://github.com/xudafeng/grunt-copy/issues' },
+62 silly install resolved     licenses: [ [Object] ],
+62 silly install resolved     main: 'Gruntfile.js',
+62 silly install resolved     engines: { node: '>= 0.8.0' },
+62 silly install resolved     scripts: { test: 'grunt test' },
+62 silly install resolved     devDependencies:
+62 silly install resolved      { 'grunt-contrib-jshint': '~0.6.0',
+62 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+62 silly install resolved        'grunt-contrib-nodeunit': '~0.2.0',
+62 silly install resolved        grunt: '~0.4.2' },
+62 silly install resolved     peerDependencies: { grunt: '~0.4.2' },
+62 silly install resolved     keywords: [ 'gruntplugin' ],
+62 silly install resolved     readme: '# grunt-copy\n\n> The best Grunt plugin ever.\n\n## Getting Started\nThis plugin requires Grunt `~0.4.2`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-copy --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-copy\');\n```\n\n## The "copy" task\n\n### Overview\nIn your project\'s Gruntfile, add a section named `copy` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  copy: {\n    options: {\n      // Task-specific options go here.\n    },\n    your_target: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n});\n```\n\n### Options\n\n#### options.separator\nType: `String`\nDefault value: `\',  \'`\n\nA string value that is used to do something with whatever.\n\n#### options.punctuation\nType: `String`\nDefault value: `\'.\'`\n\nA string value that is used to do something else with whatever else.\n\n### Usage Examples\n\n#### Default Options\nIn this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`\n\n```js\ngrunt.initConfig({\n  copy: {\n    options: {},\n    files: {\n      \'dest/default_options\': [\'src/testing\', \'src/123\'],\n    },\n  },\n});\n```\n\n#### Custom Options\nIn this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`\n\n```js\ngrunt.initConfig({\n  copy: {\n    options: {\n      separator: \': \',\n      punctuation: \' !!!\',\n    },\n    files: {\n      \'dest/default_options\': [\'src/testing\', \'src/123\'],\n    },\n  },\n});\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n_(Nothing yet)_\n',
+62 silly install resolved     readmeFilename: 'README.md',
+62 silly install resolved     _id: 'grunt-copy@0.1.0',
+62 silly install resolved     dist:
+62 silly install resolved      { shasum: '5166fff1d19fcff8a02c75b9663e7331e236406d',
+62 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-copy/-/grunt-copy-0.1.0.tgz' },
+62 silly install resolved     _from: 'grunt-copy@latest',
+62 silly install resolved     _npmVersion: '1.3.22',
+62 silly install resolved     _npmUser: { name: 'xudafeng', email: 'xudafeng@126.com' },
+62 silly install resolved     maintainers: [ [Object] ],
+62 silly install resolved     directories: {},
+62 silly install resolved     _shasum: '5166fff1d19fcff8a02c75b9663e7331e236406d',
+62 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-copy/-/grunt-copy-0.1.0.tgz' } ]
+63 info install grunt-copy@0.1.0 into /home/mistahj/Desktop/Repos/APP-JS-Character
+64 info installOne grunt-copy@0.1.0
+65 verbose installOne of grunt-copy to /home/mistahj/Desktop/Repos/APP-JS-Character not in flight; installing
+66 verbose correctMkdir /home/mistahj/.npm/_locks correctMkdir not in flight; initializing
+67 verbose lock using /home/mistahj/.npm/_locks/grunt-copy-252f50ccdba398c2.lock for /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+68 silly install write writing grunt-copy 0.1.0 to /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+69 verbose unbuild node_modules/grunt-copy
+70 info preuninstall grunt-copy@0.1.0
+71 info uninstall grunt-copy@0.1.0
+72 verbose unbuild rmStuff grunt-copy@0.1.0 from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules
+73 info postuninstall grunt-copy@0.1.0
+74 silly gentlyRm /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy is being purged from base /home/mistahj/Desktop/Repos/APP-JS-Character
+75 verbose gentlyRm don't care about contents; nuking /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+76 silly vacuum-fs purging /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+77 silly vacuum-fs quitting because other entries in /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules
+78 verbose tar unpack /home/mistahj/.npm/grunt-copy/0.1.0/package.tgz
+79 verbose tar unpacking to /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+80 silly gentlyRm /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy is being purged
+81 verbose gentlyRm don't care about contents; nuking /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+82 silly gunzTarPerm modes [ '775', '664' ]
+83 silly gunzTarPerm extractEntry package.json
+84 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+85 silly gunzTarPerm extractEntry .npmignore
+86 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+89 silly gunzTarPerm extractEntry Gruntfile.js
+90 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 436 ]
+91 silly gunzTarPerm extractEntry .jshintrc
+92 silly gunzTarPerm modified mode [ '.jshintrc', 420, 436 ]
+93 silly gunzTarPerm extractEntry LICENSE-MIT
+94 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 436 ]
+95 silly gunzTarPerm extractEntry tasks/copy.js
+96 silly gunzTarPerm modified mode [ 'tasks/copy.js', 420, 436 ]
+97 silly gunzTarPerm extractEntry test/copy_test.js
+98 silly gunzTarPerm modified mode [ 'test/copy_test.js', 420, 436 ]
+99 silly gunzTarPerm extractEntry test/expected/custom_options
+100 silly gunzTarPerm modified mode [ 'test/expected/custom_options', 420, 436 ]
+101 silly gunzTarPerm extractEntry test/expected/default_options
+102 silly gunzTarPerm modified mode [ 'test/expected/default_options', 420, 436 ]
+103 silly gunzTarPerm extractEntry test/fixtures/123
+104 silly gunzTarPerm modified mode [ 'test/fixtures/123', 420, 436 ]
+105 silly gunzTarPerm extractEntry test/fixtures/testing
+106 silly gunzTarPerm modified mode [ 'test/fixtures/testing', 420, 436 ]
+107 verbose write writing to /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy/package.json
+108 info preinstall grunt-copy@0.1.0
+109 verbose readDependencies loading dependencies from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy/package.json
+110 silly prepareForInstallMany adding grunt@~0.4.2 from grunt-copy peerDependencies
+111 warn peerDependencies The peer dependency grunt@~0.4.2 included from grunt-copy will no
+112 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+113 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+114 verbose readDependencies loading dependencies from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy/package.json
+115 silly install resolved []
+116 verbose about to build /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+117 info build /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+118 info linkStuff grunt-copy@0.1.0
+119 silly linkStuff grunt-copy@0.1.0 has /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules as its parent node_modules
+120 verbose linkBins grunt-copy@0.1.0
+121 verbose linkMans grunt-copy@0.1.0
+122 verbose rebuildBundles grunt-copy@0.1.0
+123 info install grunt-copy@0.1.0
+124 info postinstall grunt-copy@0.1.0
+125 verbose readDependencies loading dependencies from /home/mistahj/Desktop/Repos/APP-JS-Character/package.json
+126 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt/package.json
+127 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-browserify/package.json
+128 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-cli/package.json
+129 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-clean/package.json
+130 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-concat/package.json
+131 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-connect/package.json
+132 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-copy/package.json
+133 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-csslint/package.json
+134 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-cssmin/package.json
+135 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-imagemin/package.json
+136 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-jshint/package.json
+137 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-uglify/package.json
+138 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-contrib-watch/package.json
+139 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy/package.json
+140 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-text-replace/package.json
+141 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-version-assets/package.json
+142 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/qunit/package.json
+143 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/x-tag/package.json
+144 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/.bin/grunt/package.json
+145 verbose targetResolver reading package data from /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/.bin/qunit/package.json
+146 verbose already installed skipping grunt@~0.4.2 /home/mistahj/Desktop/Repos/APP-JS-Character
+147 silly install resolved []
+148 verbose unlock done using /home/mistahj/.npm/_locks/grunt-copy-252f50ccdba398c2.lock for /home/mistahj/Desktop/Repos/APP-JS-Character/node_modules/grunt-copy
+149 verbose validateInstall loading /home/mistahj/Desktop/Repos/APP-JS-Character/package.json for validation
+150 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+150 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:125:32
+150 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:268:7
+150 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+150 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+150 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+150 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+150 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+150 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+150 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+150 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+151 verbose cwd /home/mistahj/Desktop/Repos/APP-JS-Character
+152 error Linux 3.13.0-95-generic
+153 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "grunt-copy" "--save-dev"
+154 error node v4.5.0
+155 error npm  v2.15.9
+156 error code EPEERINVALID
+157 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+157 error peerinvalid Peer grunt-copy@0.1.0 wants grunt@~0.4.2
+157 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+157 error peerinvalid Peer grunt-contrib-connect@1.0.2 wants grunt@>=0.4.0
+157 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+157 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+158 verbose exit [ 1, true ]
