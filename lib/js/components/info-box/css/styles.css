@@ -1,0 +1,20 @@
+MAIN-BOX,
+SPELL-BOX {
+	border: 1px solid black;
+	height: 11.4vmax;
+	width: 42.749999958vmax;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+	padding:0 5px;
+	justify-content: space-around;
+}
+
+MAIN-BOX{
+	background: #FFF;
+}
+
+SPELL-BOX{
+	background: #DDD;
+	align-items: center;
+}

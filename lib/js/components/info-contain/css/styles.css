@@ -1,0 +1,22 @@
+INFO-CONTAIN {
+	width: 47.5vmax;
+	height: 20.1525vmax;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+INFO-CONTAIN:before {
+	content: '';
+	position: absolute;
+	left: 39.75vmax;
+	top: 7.07625vmax;
+	width: 0;
+	height: 0;
+	display: block;
+	border: 3.5625vmax solid #DDD;
+	border-right-color: transparent;
+	z-index: 0;
+}

@@ -1,0 +1,33 @@
+MAGIC-INFO-FIELD {
+	height: 3.8vmax;
+	width: 10.6535238095238vmax;
+	text-align: center;
+	background: linear-gradient(135deg, transparent 10px, #000 0) top left,
+		linear-gradient(225deg, transparent 10px, #000 0) top right,
+		linear-gradient(315deg, transparent 10px, #000 0) bottom right,
+		linear-gradient(45deg, transparent 10px, #000 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+MAGIC-INFO-FIELD:before {
+	content: attr(content);
+	display: block;
+	height: 3.7vmax;
+	width: 10.5vmax;
+	background: linear-gradient(135deg, transparent 10px, #FFF 0) top left,
+		linear-gradient(225deg, transparent 10px, #FFF 0) top right,
+		linear-gradient(315deg, transparent 10px, #FFF 0) bottom right,
+		linear-gradient(45deg, transparent 10px, #FFF 0) bottom left;
+	background-size: 50% 50%; background-repeat: no-repeat;
+	margin: 1px;
+	line-height: 3.8vmax;
+}
+
+MAGIC-INFO-FIELD:after {
+	content: attr(label);
+	display: block;
+	width: 10.6535238095238vmax;
+	font-size: 1vmax;
+	line-height: 1vmax;
+}

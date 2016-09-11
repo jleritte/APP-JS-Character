@@ -1,0 +1,29 @@
+MAIN-COLUMN,
+MAIN-COLUMN-HALF,
+SPELL-COLUMN {
+	width: 31.666666666vmax;
+	display: flex;
+	flex-direction: column;
+}
+
+MAIN-COLUMN {
+	height: 87.3275vmax;
+	background: #00F;
+}
+
+SPELL-COLUMN {
+	height: 114.1975vmax;
+	background: #F00;
+}
+
+MAIN-COLUMN.attribute {
+	background: linear-gradient(135deg, transparent 10px, #DDD 0) top left,
+		linear-gradient(225deg, transparent 10px, #DDD 0) top right,
+		linear-gradient(315deg, transparent 10px, #DDD 0) bottom right,
+		linear-gradient(45deg, transparent 10px, #DDD 0) bottom left;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	border: 7px solid #FFF;
+	align-items: center;
+	justify-content: space-around;
+}

@@ -1,0 +1,7 @@
+CHARACTER-SHEET {
+	width: 95vmax;
+	height: 134.35vmax;
+	background: #FFF;
+	display: flex;
+	flex-wrap: wrap;
+}

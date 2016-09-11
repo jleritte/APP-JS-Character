@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+	font-size: 1.5vmax;
+	box-sizing: border-box;
+}
+BODY{
+	width: 100vw;
+	height: 139.35vmax;
+	background: #555;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}

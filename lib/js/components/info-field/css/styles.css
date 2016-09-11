@@ -1,0 +1,16 @@
+INFO-FIELD {
+	height: 4.5vmax;
+	width: 13.95vmax;
+	line-height: 4.5vmax;
+	text-align: center;
+	font-size: 1.2vmax;
+}
+INFO-FIELD:after {
+	content: attr(label);
+	display: block;
+	width: 13.95vmax;
+	border-top: 1px solid #DDD;
+	font-size: 1vmax;
+	line-height: 1vmax;
+	text-align: left;
+}

@@ -1,0 +1,30 @@
+NAME-RIBBON {
+	position: relative;
+	border: 3.5625vmax solid #DDD;
+	left: -35.5vmax;
+	top: 1.5vmax;
+	border-left-color: transparent;
+	border-radius: 0 0 5px 0;
+}
+NAME-RIBBON:before {
+	content: attr(name);
+	display: block;
+	height: 7.125vmax;
+	width: 38vmax;
+	position: absolute;
+	left: 1vmax;
+	top: -5vmax;
+	background: #FFF;
+	line-height: 7.125vmax;
+	text-align: center;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #000;
+}
+NAME-RIBBON:after {
+	content: attr(label);
+	position: absolute;
+	top: 2.5vmax;
+	left: 4vmax;
+	white-space: nowrap;
+	font-size: 1vmax;
+}

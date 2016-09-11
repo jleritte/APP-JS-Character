@@ -42,11 +42,13 @@ module.exports = function(grunt) {
 			},
 		browserify: {
 			options: {
+				alias: {
+					'x-tag': './node_modules/x-tag/dist/x-tag-core.min.js'
+				},
 				browserifyOptions: {
 					paths: [
 						path+'js',
-						path+'js/components',
-						path+'js/components/atoms',
+						path+'js/components'
 					]
 				}
 			},
@@ -96,7 +98,7 @@ module.exports = function(grunt) {
 			},
 			target: {
 				files: {
-					'build/resources/css/styles.min.css': [path+'css/**/*.css']
+					'build/resources/css/styles.min.css': [path+'/**/*.css']
 				}
 			}
 			},
@@ -120,8 +122,7 @@ module.exports = function(grunt) {
 			options: {
 				grepFiles: [
 					'build/index.html'
-				],
-				keepOriginal: false
+				]
 			},
 			js: {
 				src: [
