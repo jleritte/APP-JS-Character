@@ -1,0 +1,62 @@
+SKILL-CHECK,
+THROW-CHECK {
+	position: relative;
+	margin: 0.3vmax 0 0 1vmax;
+	height: 1.5vmax;
+}
+SKILL-CHECK > INPUT,
+THROW-CHECK > INPUT {
+	display: none;
+}
+SKILL-CHECK > LABEL,
+THROW-CHECK > LABEL {
+	display: flex;
+	position: relative;
+	padding-left: 1.5vmax;
+	z-index: 1;
+	font-size: 1.25vmax;
+}
+SKILL-CHECK > LABEL:before,
+THROW-CHECK > LABEL:before {
+	content: attr(content);
+	display: block;
+	margin-right: 0.5vmax;
+}
+SKILL-CHECK > LABEL:after,
+THROW-CHECK > LABEL:after {
+	content: attr(name);
+	display: block;
+}
+SKILL-CHECK > DIV,
+THROW-CHECK > DIV {
+	display: block;
+	position: absolute;
+	border: 2px solid rgb(0, 0, 0);
+	height: 1vmax;
+	width: 1vmax;
+	left: 0;
+	top: 0.2vmax;
+}
+THROW-CHECK > DIV {
+	transform: rotateZ(45deg);
+}
+SKILL-CHECK > DIV {
+	border-radius: 50%;
+}
+SKILL-CHECK > DIV:before,
+THROW-CHECK > DIV:before {
+	content: '';
+	display: block;
+	height: 0.5vmax;
+	width: 0.5vmax;
+	position: absolute;
+	top:0.1vmax;
+	left: 0.1vmax;
+}
+SKILL-CHECK > DIV:before {
+	border-radius: 50%;
+}
+SKILL-CHECK > INPUT:checked ~ DIV:before,
+THROW-CHECK > INPUT:checked ~ DIV:before {
+	background: #000;
+}

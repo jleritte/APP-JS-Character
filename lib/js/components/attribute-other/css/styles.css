@@ -9,6 +9,7 @@ ATTRIBUTE-OTHER {
 	background-repeat: no-repeat;
 	position: relative;
 	left: 2.7vmax;
+	font-size: 1vmax;
 }
 ATTRIBUTE-OTHER:before {
 	content: attr(label);

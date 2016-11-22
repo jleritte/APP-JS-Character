@@ -56,11 +56,12 @@ module.exports = function(grunt) {
 			},
 		connect: {
 			local: {
-				port: 8000,
-				hostname: '127.0.0.1',
-				base: 'build/',
-				keepalive: true,
-				livereload: true
+				options: {
+					port: 8081,
+					hostname: '127.0.0.1',
+					base: 'build/',
+					livereload: 8082
+				}
 			}
 			},
 		uglify: {
@@ -85,10 +86,10 @@ module.exports = function(grunt) {
 				files: [path+'home.html'],
 				tasks: ['copy','versioning']
 				},
-			serve: {
-				files: ['build/resources/*'],
+			livereload: {
+				files: ['build/resources/**/*'],
 				options: {
-					livereload: true
+					livereload: 8082
 				}
 			}
 			},
@@ -117,7 +118,7 @@ module.exports = function(grunt) {
 					}
 				}]
 			}
-		},
+			},
 		versioning: {
 			options: {
 				grepFiles: [
